@@ -5,7 +5,7 @@ installPath=/opt/eclipse
 sudo mkdir $installPath
 
 # Extaer
-mv $eclipse /tmp
+cp $eclipse /tmp
 cd /tmp
 
 tar -xf $eclipse
